@@ -5,8 +5,7 @@ FROM node:18
 WORKDIR /app
 
 # คัดลอกไฟล์ไปยัง Container
-COPY package.json ./
-COPY package-lock.json ./
+Copy . /app
 
 # ติดตั้ง dependencies
 RUN npm install
