@@ -1,0 +1,169 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Background container */
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #6d1d1d; /* Dark red background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main card area */
+.main-area {
+  background-color: #f0f0f0; /* Light gray */
+  width: 50%;
+  max-width: 500px;
+  padding: 2rem; 
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Title styling */
+.my-app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.register-license-plate,
+.register-face,
+.back-to-main-menu {
+  background-color: #d1d1d1;
+  color: black;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+/* Hover effect */
+.register-license-plate:hover,
+.register-face:hover,
+.back-to-main-menu:hover {
+  background-color: #b0b0b0;
+  transform: scale(1.01);
+}
+
+/* ปรับแต่งกรอบกล้อง */
+.camera-box {
+width: 100%; /* ให้ขยายเต็ม container */
+max-width: 320px; /* จำกัดขนาดสูงสุด */
+height: 240px; /* ปรับขนาดให้เหมาะสม */
+border: 3px solid #fff; /* เส้นขอบสีขาว */
+border-radius: 12px; /* มุมโค้ง */
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+margin: 10px auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+/* ปรับแต่งวิดีโอ */
+.camera-box video {
+width: 100%;
+height: 100%;
+object-fit: cover; /* ปรับให้เต็มกล่อง */
+border-radius: 12px;
+}
+
+/* ปรับขนาดของกล่องหลัก */
+.main-area {
+background-color: #f0f0f0; /* สีเทาอ่อน */
+width: 90%;
+max-width: 450px; /* ลดขนาดให้พอดี */
+padding: 2rem;
+border-radius: 15px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+text-align: center;
+position: relative;
+}
+
+/* ปรับแต่งปุ่ม */
+.back-to-main-menu {
+background-color: #d1d1d1;
+color: black;
+width: 100%;
+padding: 12px;
+border: none;
+border-radius: 25px;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+margin-top: 15px;
+}
+
+.back-to-main-menu:hover {
+background-color: #b0b0b0;
+transform: scale(1.05);
+}
+
+
+/* ปรับตำแหน่งของ input-area */
+.input-area {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ปรับแต่งตัวอักษรของ label */
+.name-register {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ปรับแต่งช่อง input */
+.input-area input {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ปรับแต่ง input เมื่อโฟกัส */
+.input-area input:focus {
+  outline: none;
+  border: 2px solid #6d1d1d; /* สีแดงเข้ม */
+}
+
+/* ปุ่มกลับหน้าหลัก */
+.back-to-main-menu {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 300px;
+  padding: 12px;
+  background-color: #d1d1d1;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+/* ปุ่ม hover */
+.back-to-main-menu:hover {
+  background-color: #b0b0b0;
+  transform: scale(1.05);
+}

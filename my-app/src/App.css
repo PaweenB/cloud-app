@@ -1,0 +1,60 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Background container */
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #6d1d1d; /* Dark red background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main card area */
+.main-area {
+  background-color: #f0f0f0; /* Light gray */
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem; 
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Title styling */
+.my-app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.authen-button,
+.register-button {
+  background-color: #d1d1d1;
+  color: black;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+/* Hover effect */
+.authen-button:hover,
+.register-button:hover {
+  background-color: #b0b0b0;
+  transform: scale(1.05);
+}
+
+
