@@ -33,7 +33,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=yourpassword
-      - POSTGRES_DB=postgre
+      - POSTGRES_DB=postgres
       - POSTGRES_HOST=localhost
       - POSTGRES_PORT=5432
     networks:
